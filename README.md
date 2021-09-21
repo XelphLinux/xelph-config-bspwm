@@ -1,1 +1,1 @@
-# xelph-config-bspwm
+# BSPWM config files for xelph linux

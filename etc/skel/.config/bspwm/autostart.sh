@@ -18,7 +18,6 @@ $HOME/.config/bspwm/polybar/launch.sh &
 #setxkbmap -layout be
 killall mocicon
 mocicon &
-~/.config/bspwm/scripts/enableclickontap.sh
 nitrogen --restore
 xsetroot -cursor_name left_ptr &
 killall sxhkd

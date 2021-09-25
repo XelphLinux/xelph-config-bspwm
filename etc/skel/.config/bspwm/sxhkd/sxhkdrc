@@ -242,10 +242,6 @@ alt + shift + {h,j,k,l}
 alt + {h,j,k,l}
 	bspc node {@east -r -30,@north -r +30,@south -r -30,@west -r +30}
 
-# Pixel color picker
-alt + c
-	/home/$USER/.config/bspwm/scripts/pixelcolor
-
 # Focus next/previous window
 ctrl + alt + Left
 	bspc node --focus west

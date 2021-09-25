@@ -1,6 +1,6 @@
 # Opens the NeoVim text editor
 super + e
-    st -e nvim
+    st -e nano
 
 # Take a screenshot of your entire screen
 super + Print 

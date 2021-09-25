@@ -1,9 +1,8 @@
 #!/bin/sh
 
-EDITOR="alacritty -e nvim"
+EDITOR="st -e nano"
 declare -a options=(
-"Alacritty - $HOME/.config/alacritty/alacritty.yml"
-"NeoVim Config - $HOME/.config/nvim/init.vim"
+"ST - /opt/xelph-st-git/"
 "Zshrc - $HOME/.zshrc"
 "Zsh aliases - $HOME/.zshrc-personal"
 "Polybar config - $HOME/.config/bspwm/polybar/config"
@@ -11,7 +10,6 @@ declare -a options=(
 "Bspwm scripts - $HOME/.config/bspwm/scripts/"
 "Sxhkd keybinds - $HOME/.config/bspwm/sxhkd/sxhkdrc"
 "AutoStart Script - $HOME/.config/bspwm/autostart.sh"
-"NeoVim Snippets - $HOME/.config/nvim/UltiSnips"
 "Picom config - $HOME/.config/bspwm/picom.conf"
 )
 

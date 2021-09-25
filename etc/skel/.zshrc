@@ -13,8 +13,8 @@ autoload -U colors && colors
 export KEYTIMEOUT=1
 export ZSH=/usr/share/oh-my-zsh
 source $ZSH/oh-my-zsh.sh
-export EDITOR=/usr/bin/nvim
-export VISUAL=/usr/bin/nvim
+export EDITOR=/usr/bin/nano
+export VISUAL=/usr/bin/nano
 
 HISTSIZE=50000
 SAVEHIST=50000

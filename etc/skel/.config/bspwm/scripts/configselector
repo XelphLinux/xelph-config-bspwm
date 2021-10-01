@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TEXTEDIT="alacritty -e $EDITOR"
+TEXTEDIT="alacritty -e nano"
 declare -a options=(
 "Alacritty - $HOME/.config/alacritty/alacritty.yml"
 "AutoStart Script - $HOME/.config/bspwm/autostart.sh"

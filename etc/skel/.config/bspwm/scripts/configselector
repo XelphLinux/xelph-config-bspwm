@@ -1,6 +1,6 @@
 #!/bin/sh
 
-EDITOR="alacritty -e nano"
+TEXTEDIT="alacritty -e $EDITOR"
 declare -a options=(
 "Alacritty - $HOME/.config/alacritty/alacritty.yml"
 "AutoStart Script - $HOME/.config/bspwm/autostart.sh"
@@ -22,7 +22,7 @@ if [[ "$choice" == "quit" ]]; then
 	echo "Program terminated." && exit 1
 elif [ "$choice" ]; then
 	cfg=$(printf '%s\n' "${choice}" | awk '{print $NF}')
-	$EDITOR $cfg
+	$TEXTEDIT $cfg
 else 
 	echo "Program terminated." && exit 1
 fi

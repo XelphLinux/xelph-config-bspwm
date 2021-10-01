@@ -1,11 +1,5 @@
 #!/bin/sh
 
-# Environtment
-export EDITOR="/usr/bin/nano"
-export _JAVA_AWT_WM_NONREPARENTING=1
-export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=lcd -Dswing.aatext=true"
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-
 #LAUNCHERS
 wmname LG3D
 $HOME/.config/bspwm/autostart.sh
